@@ -19,7 +19,6 @@ from data.models import (
 # Global cache instance
 _cache = get_cache()
 
-
 def get_prices(ticker: str, start_date: str, end_date: str) -> list[Price]:
     """Fetch price data from cache or API."""
     # Check cache first

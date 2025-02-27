@@ -34,8 +34,8 @@ class Backtester:
         start_date: str,
         end_date: str,
         initial_capital: float,
-        model_name: str = "gpt-4o",
-        model_provider: str = "OpenAI",
+        model_name: str = "claude-3-7-sonnet-latest",
+        model_provider: str = "Anthropic",
         selected_analysts: list[str] = [],
         initial_margin_requirement: float = 0.0,
     ):
